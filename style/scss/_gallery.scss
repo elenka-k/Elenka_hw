@@ -1,0 +1,29 @@
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li {
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots button {
+    font-size: 0;
+    line-height: 0;
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
+    background: #24a4ff;
+    opacity: 0.2;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slick-active button {
+    opacity: 1;
+}
